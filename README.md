@@ -1,5 +1,6 @@
-![image](https://github.com/ffaw/Snoop/assets/62674960/d20e3c61-ffad-41c8-9ec9-72db179a7f22)
+<h1 align="center">Snoop</h1>
+<p align="center">OSINT Tool for research social media accounts by username</p>
 
-pip install requests <br>
-pip install beautifulsoup4 <br>
-python3 snoop.py
+$ pip install requests <br>
+$ pip install beautifulsoup4 <br>
+$ python3 snoop.py
