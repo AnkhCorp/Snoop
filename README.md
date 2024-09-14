@@ -5,10 +5,10 @@
 pip install requests
 ```
 ```Install BeautifulSoup
-$ pip install beautifulsoup4 <br>
+pip install beautifulsoup4
 ```
 ```Execute Snoop
-$ python3 snoop.py
+python3 snoop.py
 ```
 
 ![image](https://github.com/user-attachments/assets/245867a1-656a-4886-9703-4ab4094d1c45)
