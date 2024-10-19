@@ -23,7 +23,7 @@ text = """
 
 red_text = TextColor.RED + text + TextColor.END
 print(red_text)
-print("Created by Faw 2.0")
+print("Created by AnkhCorp 2.0")
 
 
 def check_social_profile(platform, username):
