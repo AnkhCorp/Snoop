@@ -85,6 +85,9 @@ def check_social_profile(platform, username):
         url = f'https://tiktok.wpme.pl/@{username}'
         display_url = f'https://tiktok.com/@{username}'
         return check_tiktok_profile(url, display_url)
+    elif platform == "rapfame":
+        url = f'https://rapfame.app/user/{username}'
+        display_url = url
     else:
         return None
 
@@ -100,7 +103,9 @@ def check_social_profile(platform, username):
     elif response.status_code == 429:
         return 404
     elif response.status_code == 304:
-        return 304 
+        return 304
+    elif response.status_code == 500:
+        return 404
     else:
         return None
 
@@ -127,7 +132,7 @@ def check_tiktok_profile(url, display_url):
 platforms = [
     "instagram", "twitter", "youtube", "reddit", "myanimelist", "github", "snapchat",
     "chess", "twitch", "minecraft", "bitbucket", "9gag", "pastebin",
-    "redbubble", "openstreetmap", "patreon", "pensador", "vsco", "tiktok"
+    "redbubble", "openstreetmap", "patreon", "pensador", "vsco", "tiktok", "rapfame",
 ]
 
 username = input(f"{TextColor.RED}Username: {TextColor.END}")
