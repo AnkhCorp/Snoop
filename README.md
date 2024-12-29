@@ -14,4 +14,7 @@ pip install beautifulsoup4
 python3 snoop.py
 ```
 
+![image](https://github.com/user-attachments/assets/6f77f647-50da-49fb-a102-1232c13074dc)
+
+
 
